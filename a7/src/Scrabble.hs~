@@ -1,0 +1,6 @@
+module Scrabble where
+
+
+data Score = Score Integer deriving (Show, Eq)
+
+score :: Char -> Score

@@ -1,0 +1,2 @@
+xor :: [Bool] -> Bool
+xor = odd $ foldr (\x xs -> if x then 1 + xs else xs) 0

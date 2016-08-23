@@ -1,0 +1,2 @@
+toDigits :: Integer -> [Integer]
+toDigitsRev :: Integer -> [Integer]

@@ -1,0 +1,2 @@
+validate :: Integer -> Bool
+validate = (`mod` 10 == 0) . sumDigits . doubleEveryOther . toDigits
